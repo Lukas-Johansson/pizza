@@ -33,7 +33,7 @@
     --base-font: 'Inter', sans-serif;
     --color-fg: #000000;
     --color-bg: #dfdfdf;
-    --color-primary: hotpink;
+    --color-primary: rgb(255, 255, 255);
 }
 
 body {
