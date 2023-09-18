@@ -55,14 +55,16 @@ h1 {
     margin: 0;
 }
 
-hr {
-    size: 20px;
-
-}
-
 a {
     color: var(--color-primary);
     text-decoration: none;
+}
+
+.hrstyle {
+    width: 50rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border: #ffffff;
 }
 
 .navbar {
@@ -78,6 +80,11 @@ a {
 
 .navcontent {
     margin: 1rem;
+}
+
+.navcontent:hover {
+    background-color: #ffffff;
+    color: black;
 }
 
 .hero {
