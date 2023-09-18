@@ -100,7 +100,10 @@ hr {
 
 }
 
+.menuBlock {
+    place-items: center;
+}
+
 .menu {
-    position: absolute;
     margin: 2rem
 }
