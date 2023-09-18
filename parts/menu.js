@@ -1,9 +1,11 @@
 function menu() {
-document.querySelector('menuBlock').innerhtml=`
-<p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem facere molestiae distinctio est itaque saepe
-    placeat nesciunt magnam earum. Ratione repellendus minus nulla consectetur repudiandae perferendis qui sapiente
-    repellat cumque?
-</p>
-`
+    return (
+        `
+        <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quidem facere molestiae distinctio est itaque saepe
+        placeat nesciunt magnam earum.Ratione repellendus minus nulla consectetur repudiandae perferendis qui sapiente
+        repellat cumque ?
+        </p>
+        `
+    )
 }
