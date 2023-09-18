@@ -45,7 +45,7 @@ body {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    
+
 }
 
 h1 {
@@ -57,7 +57,7 @@ h1 {
 
 hr {
     size: 20px;
-    
+
 }
 
 .navbar {
@@ -85,20 +85,8 @@ hr {
     color: white;
 }
 
-.herotext {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+.herotext {}
 
-.HeroImg {
-    width: 100%;
-    object-fit: cover;
-    margin: 0 auto;
-    display: block;
-
-}
 
 .menuBlock {
     place-items: center;
