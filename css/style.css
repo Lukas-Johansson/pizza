@@ -60,15 +60,16 @@ hr {
 
 }
 
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
 .navbar {
     list-style: none;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-}
-
-.nav a {
-    text-decoration: none;
 }
 
 .nav-link {
