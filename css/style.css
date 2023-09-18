@@ -33,7 +33,7 @@
     --base-font: 'Inter', sans-serif;
     --color-fg: #000000;
     --color-bg: #dfdfdf;
-    --color-primary: rgb(255, 255, 255);
+    --color-primary: hotpink;
 }
 
 body {
@@ -69,7 +69,7 @@ a {
 
 .navbar {
     list-style: none;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
 }
@@ -93,7 +93,7 @@ a {
     color: white;
 }
 
-.herotext {
+.heroText {
     margin-top: 15rem;
 }
 
@@ -108,11 +108,4 @@ a {
 
 .filler {
     background-color: red;
-}
-
-.triopic {
-    width: 10%;
-    height: 10%;
-    margin: 1rem;
-    display: inline-block;
 }
