@@ -7,5 +7,5 @@ function menu() {
         repellat cumque ?
         </p>
         `
-    )
+    );
 }

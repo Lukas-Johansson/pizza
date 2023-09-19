@@ -17,6 +17,7 @@
     </navbar>
 
     <div class="background">
+
         <body background="images/top-view-cheese-pizza-with-ingredients-copy-space.jpg" class="HeroImg">
     </div>
 
@@ -28,10 +29,16 @@
             </hr>
             <p>Umeås billigaste och godaste pizza</p>
         </div>
-        <div class="menuBlock">
-            <script src="parts/menu.js">menu()</script>
-        </div>
     </div>
+    <div class="menuBlock">
+        <div id="menuText"></div>
+    </div>
+    <script src="parts/menu.js">menu()</script>
+    <script>
+        const menuText = menu();
+
+        document.getElementById("menuText").innerHTML = menuText;
+    </script>
 
     <div class="filler">
         <div class="fillertext">
