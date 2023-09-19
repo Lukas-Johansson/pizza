@@ -36,6 +36,21 @@
     --color-primary: rgb(255, 255, 255);
 }
 
+.flow>*+* {
+    margin-top: var(--flow-space, 1em)
+}
+
+.container {
+    width: min(54rem, 100vw - var(--space-xl));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -46,6 +61,7 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    align-items: center;
 }
 
 h1 {
@@ -129,6 +145,10 @@ a:active::before {
     color: white;
 }
 
+.heroImg {
+    size: 0px
+}
+
 .heroText {
     margin-top: 15rem;
 }
@@ -137,10 +157,15 @@ a:active::before {
 .menu {
     margin-left: auto;
     margin-right: auto;
-    width: 50rem;
+    max-width: 90%;
     padding: 1rem;
     color: #272727;
     background-color: #e7dac7;
+}
+
+.menuMain {
+
+    display: flex;
 }
 
 .menuHead {
@@ -148,16 +173,30 @@ a:active::before {
     text-decoration: underline;
 }
 
-.menuText {
-    display: grid;
-    column-gap: 1rem;
-    grid-template-columns: auto auto;
+.pizzaName {
+    margin-left: auto;
+    flex-direction: column;
 
 }
 
-.menuText p {
-    /* margin-left: auto;
-    margin-right: auto; */
+.pizzaTable {
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 90%;
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+.pizzaTable td {
+    max-width: 90%;
+}
+
+.pizzaTable td:last-child:before {
+    content: "-------------------------------------------------------------------------------------"
+}
+
+.ingList {
+    min-width: 40rem;
 }
 
 .filler {
