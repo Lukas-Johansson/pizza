@@ -113,10 +113,12 @@ a:active::before {
 }
 
 .hrstyle {
-    width: 50rem;
+    width: auto;
     height: 0.2rem;
     background-color: #ffffff;
     border: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar {
@@ -157,7 +159,7 @@ a:active::before {
 .menu {
     margin-left: auto;
     margin-right: auto;
-    max-width: 90%;
+    max-width: 75%;
     padding: 1rem;
     color: #272727;
     background-color: #e7dac7;
@@ -173,17 +175,17 @@ a:active::before {
     text-decoration: underline;
 }
 
-.pizzaName {
+/* .pizzaName {
     margin-left: auto;
     flex-direction: column;
 
-}
+} */
 
 .pizzaTable {
     overflow: hidden;
     white-space: nowrap;
-    max-width: 90%;
-    margin-left: 1rem;
+    max-width: 60%;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -193,6 +195,10 @@ a:active::before {
 
 .pizzaTable td:last-child:before {
     content: "-------------------------------------------------------------------------------------"
+}
+
+.pizzaTable td:nth-child(2):before {
+    content: " - "
 }
 
 .ingList {
