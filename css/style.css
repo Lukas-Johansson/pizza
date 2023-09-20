@@ -153,7 +153,8 @@ a:active::before {
 }
 
 .heroText {
-    margin-top: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 15rem;
     width: auto;
 }
 
@@ -167,25 +168,23 @@ a:active::before {
     background-color: #e7dac7;
 }
 
-.menuMain {
-
-    display: flex;
+.menuHead {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.menuHead {
+.menuHead h2 {
     text-align: center;
     text-decoration: underline;
 }
 
-/* .pizzaName {
-    margin-left: auto;
-    flex-direction: column;
-
-} */
-
 .pizzaTable {
-    overflow: hidden;
-    white-space: nowrap;
+    /* overflow: hidden;
+    white-space: nowrap; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: auto;
+    text-align: center;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
