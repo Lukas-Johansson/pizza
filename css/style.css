@@ -52,7 +52,7 @@ html {
 
 .section {
     padding-top: var(--space-xl);
-    padding-bottom: var(--space-xl);
+    padding-bottom: var(--space-s);
 }
 
 body {
@@ -175,6 +175,7 @@ a:active::before {
     display: flex;
     position: absolute;
     opacity: 10%;
+    justify-content: center;
 }
 
 .menuHead {
@@ -194,43 +195,42 @@ a:active::before {
     text-align: center;
     max-width: 100%;
     margin-left: auto;
-    margin-right: auto;
 }
 
-
-.filler {
-    display: flex;
+.fillerItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    align-items: center;
+    justify-items: center;
     background-color: #e7dac7;
+}
+
+.fillerText {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.fillerText {
-    padding: 1rem;
-    text-align: left;
-}
-
-.fillerImages {
-    padding: 1rem;
+.fillerImage {
     display: flex;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
-.fillerImages:nth-child(1) {
-    border: #e40d0d solid 10px;
-
+.fillerImage img {
+    width: 15rem;
+    height: auto;
 }
-
-.fillerImages>img {
-    width: 10rem;
-}
-
 
 footer {
-    height: 10rem;
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    height: 10%;
     background-color: rgb(32, 32, 32);
     color: white;
 }
