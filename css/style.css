@@ -226,6 +226,10 @@ a:active::before {
     height: auto;
   }
 
+  .filler {
+    padding-bottom: var(--space-s);
+  }
+
 footer {
     height: 10rem;
     background-color: rgb(32, 32, 32);
