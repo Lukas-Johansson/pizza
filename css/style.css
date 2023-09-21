@@ -173,6 +173,7 @@ a:active::before {
     display: flex;
     position: absolute;
     opacity: 10%;
+    justify-content: center;
 }
 
 .menuHead {
@@ -219,7 +220,7 @@ a:active::before {
 
 .fillerImages:nth-child(1) {
     border: #e40d0d solid 10px;
-    
+
 }
 
 .fillerImages>img {
@@ -228,7 +229,10 @@ a:active::before {
 
 
 footer {
-    height: 10rem;
+    color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    height: 10%;
     background-color: rgb(32, 32, 32);
 }
 
