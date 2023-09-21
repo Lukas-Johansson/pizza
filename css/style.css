@@ -126,6 +126,7 @@ a:active::before {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin: 1rem;
 }
 
 .nav-link {
