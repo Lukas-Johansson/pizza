@@ -168,6 +168,13 @@ a:active::before {
     background-color: #e7dac7;
 }
 
+.pizzaDecal {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    opacity: 10%;
+}
+
 .menuHead {
     margin-left: auto;
     margin-right: auto;
@@ -207,6 +214,7 @@ a:active::before {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    gap: 1rem;
 }
 
 .fillerImages:nth-child(1) {
