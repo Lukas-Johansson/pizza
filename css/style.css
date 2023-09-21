@@ -36,6 +36,10 @@
     --color-primary: rgb(255, 255, 255);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .flow>*+* {
     margin-top: var(--flow-space, 1em)
 }
