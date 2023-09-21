@@ -195,8 +195,6 @@ a:active::before {
     text-align: center;
     max-width: 100%;
     margin-left: auto;
-    margin-rigpadding-bottom: var(--space-s);
-    content: center;
 }
 
 .fillerItem {
