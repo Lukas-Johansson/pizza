@@ -197,8 +197,8 @@ a:active::before {
 }
 
 .fillerText {
-    padding-top: 5%;
-    text-align: center;
+    padding: 5%;
+    text-align: left;
 }
 
 
