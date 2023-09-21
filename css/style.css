@@ -194,7 +194,8 @@ a:active::before {
     margin-top: 15rem;
     height: 100vh;
     background-color: #888888;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .fillerText {
@@ -210,6 +211,11 @@ a:active::before {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fillerImages:nth-child(1) {
+    border: #e40d0d solid 10px;
+    
 }
 
 .fillerImages > img {
