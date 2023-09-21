@@ -191,8 +191,6 @@ a:active::before {
 
 .filler {
     display: flex;
-    margin-top: 15rem;
-    height: 100vh;
     background-color: #888888;
     align-items: center;
     justify-content: center;
