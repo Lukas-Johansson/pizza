@@ -211,7 +211,7 @@ a:active::before {
 
 .fillerImages:nth-child(1) {
     border: #e40d0d solid 10px;
-    
+
 }
 
 .fillerImages>img {
@@ -236,14 +236,14 @@ footer {
 
 .box {
     /* Copied from the internet, no clue what anything means */
-    /* To use this, create a div with classes box, mask, (upsidedown) and a cunstom for your backgroundColor */
-    --size: 50px;
-    --p: 25px;
-    --R: 56px
+    /* To use this, create a div with classes box, mask, (upsidedown) and a custom for your backgroundColor */
+    --size: 100px;
+    --p: 50px;
+    --R: 112px
         /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/
     ;
 
-    height: 85px;
+    height: 175px;
     margin: 0;
 }
 
