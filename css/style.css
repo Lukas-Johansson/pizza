@@ -218,7 +218,7 @@ a:active::before {
     
 }
 
-.fillerImages > img {
+.fillerImages>img {
     width: 10rem;
 }
 
@@ -226,4 +226,14 @@ a:active::before {
 footer {
     height: 10rem;
     background-color: rgb(32, 32, 32);
+}
+
+.omOss {
+    background-color: white;
+    padding: 1em;
+}
+
+
+.omOssText {
+    text-align: center;
 }
