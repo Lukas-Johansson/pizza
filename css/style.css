@@ -228,10 +228,6 @@ a:active::before {
     height: auto;
 }
 
-  .filler {
-    padding-bottom: var(--space-s);
-  }
-
 footer {
     color: var(--color-primary);
     display: flex;
