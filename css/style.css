@@ -207,6 +207,7 @@ a:active::before {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    gap: 1rem;
 }
 
 .fillerImages:nth-child(1) {
