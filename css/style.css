@@ -181,6 +181,7 @@ a:active::before {
     position: absolute;
     opacity: 10%;
     justify-content: center;
+    margin: 10rem;
 }
 
 .menuHead {
