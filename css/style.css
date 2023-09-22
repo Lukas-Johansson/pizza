@@ -30,7 +30,7 @@
     --step-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
     --step-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
     --step-5: clamp(2.80rem, calc(2.45rem + 1.77vw), 3.82rem);
-    --base-font: 'Inter', sans-serif;
+    --base-font: 'BenchNine', sans-serif;
     --color-fg: #000000;
     --color-bg: #dfdfdf;
     --color-primary: rgb(255, 255, 255);
@@ -52,7 +52,7 @@ html {
 
 .section {
     padding-top: var(--space-xl);
-    padding-bottom: var(--space-s);
+    padding-bottom: var(--space-l);
 }
 
 body {
@@ -76,7 +76,12 @@ h1 {
     margin: 0;
 }
 
+p {
+    font-size: var(--step-0);
+}
+
 a {
+    font-size: var(--step-1);
     color: white;
     text-decoration: none;
 }
@@ -176,6 +181,7 @@ a:active::before {
     position: absolute;
     opacity: 10%;
     justify-content: center;
+    margin: 10rem;
 }
 
 .menuHead {
@@ -195,10 +201,16 @@ a:active::before {
     text-align: center;
     max-width: 100%;
     margin-left: auto;
+
+}.filler {
+    padding-bottom: var(--space-l);
 }
 
 .fillerItem {
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -239,11 +251,19 @@ footer {
 }
 
 .omOss {
-    background-color: white;
+    background-color: #e7dac7;
     padding: 1em;
 }
 
 
 .omOssText {
     text-align: center;
+}
+
+.footeritems {
+    margin: 5rem;
+}
+
+.footeritems :hover {
+    color: white;
 }
