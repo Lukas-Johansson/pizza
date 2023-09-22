@@ -66,7 +66,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     align-items: center;
-    background-image: url(/images/BIltest1.jpg)
+    background-image: url(/images/BIltest1.jpg);
 }
 
 h1 {
@@ -198,6 +198,7 @@ a:active::before {
 }
 
 .fillerItem {
+    padding: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -219,6 +220,7 @@ a:active::before {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .fillerImage img {
@@ -233,6 +235,7 @@ footer {
     height: 10%;
     background-color: rgb(32, 32, 32);
     color: white;
+    padding: 1rem;
 }
 
 .omOss {
@@ -243,33 +246,4 @@ footer {
 
 .omOssText {
     text-align: center;
-}
-
-.box {
-    /* Copied from the internet, no clue what anything means */
-    /* To use this, create a div with classes box, mask, (upsidedown) and a custom for your backgroundColor */
-    --size: 100px;
-    --p: 50px;
-    --R: 112px
-        /*sqrt(var(--size)*var(--size) + var(--p)*var(--p))*/
-    ;
-
-    height: 175px;
-    margin: 0;
-}
-
-.box.mask {
-    -webkit-mask:
-        radial-gradient(var(--R) at 50% calc(var(--size) + var(--p)), blue 99%, #0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
-        radial-gradient(var(--R) at 50% calc(-1*var(--p)), #0000 99%, red 101%) 50% var(--size)/calc(4*var(--size)) 100% repeat-x;
-    background-color: white;
-    border: none;
-}
-
-.box.mask.upsidedown {
-    -webkit-mask:
-        radial-gradient(var(--R) at 50% calc(100% - (var(--size) + var(--p))), blue 99%, #0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
-        radial-gradient(var(--R) at 50% calc(100% + var(--p)), #0000 99%, red 101%) 50% calc(100% - var(--size))/calc(4*var(--size)) 100% repeat-x;
-    background-color: white;
-    border: none;
 }
