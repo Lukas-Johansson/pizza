@@ -313,4 +313,15 @@ footer {
         margin: 1rem;
     }
 
+    .pizzaDecal {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .map {
+        width: 200px;
+        height: 200px;
+    }
 }
