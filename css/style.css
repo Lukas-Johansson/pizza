@@ -202,7 +202,9 @@ a:active::before {
     max-width: 100%;
     margin-left: auto;
 
-}.filler {
+}
+
+.filler {
     padding-bottom: var(--space-l);
 }
 
@@ -266,4 +268,14 @@ footer {
 
 .footeritems :hover {
     color: white;
+}
+
+.footerLi {
+    list-style: none;
+    padding: 0;
+}
+
+.map {
+    width: clamp(200px, 350px, 400px);
+    height: clamp(200px, 350px, 400px);
 }
