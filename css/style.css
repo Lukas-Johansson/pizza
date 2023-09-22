@@ -262,3 +262,7 @@ footer {
 .footeritems {
     margin: 5rem;
 }
+
+.footeritems :hover {
+    color: white;
+}
